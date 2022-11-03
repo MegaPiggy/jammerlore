@@ -1,0 +1,68 @@
+{
+	"name" : "Kerbintint",
+	"starSystem" : "Jammer.jammerlore",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 250,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 6000,
+		"inclination" : 0,
+		"primaryBody" : "Stary",
+		"isMoon" : false,
+		"axialTilt": 5,
+		"siderealPeriod" : 30,
+		"showOrbitLine": true
+	},
+	"Water": {
+		"size" : 225,
+		"tint":
+		{
+			"r" : 3,
+			"g" : 157,
+			"b" : 252,
+			"a" : 255
+		},
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"size" : 300,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 300,
+	},
+	"Props" :
+	{
+		"Details":
+		[
+			{
+			"assetBundle":"planets/modwls/pain",
+			"path":"Assets/plonet.prefab",
+			"position":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+				"rotation":{
+				"x":0,
+				"y":0,
+				"z":0
+			},
+			"scale": 1
+			}
+		]
+	}
+
+}

@@ -1,0 +1,48 @@
+{
+	"name" : "Stary",
+	"starSystem" : "Jammer.jammerlore",
+	"Base" :
+	{
+		"surfaceGravity" : 90,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" :
+	{
+		"isStatic" : true
+	},
+	"Atmosphere" :
+	{
+		"size" : 1000,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 200,
+			"b" : 200,
+			"a" : 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 100
+	},
+	"Star" :
+	{
+		"size" : 1000,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 200,
+			"b" : 200,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 1.0
+	}
+}

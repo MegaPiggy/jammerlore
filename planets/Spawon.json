@@ -1,0 +1,29 @@
+{
+	"name" : "Spawon",
+	"starSystem":"Jammer.jammerlore",
+	"Base" : 
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"hasMapMarker" : false,
+		"hasReferenceFrame": false
+	},
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": 0, "y": 10, "z": 0},
+		"shipSpawnPoint" :
+		{"x": 0, "y": 10, "z": 0},
+		"startwithSuit" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10000,
+		"inclination" : 0,
+		"primaryBody" : "Stary",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0
+	}
+}

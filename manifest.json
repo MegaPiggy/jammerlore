@@ -1,0 +1,11 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Jammer",
+  "name": "Jammer Lore",
+  "uniqueName": "Jammer.jammerlore",
+  "version": "0.2.4",
+  "owmlVersion": "2.7.3",
+  "dependencies": [
+    "xen.NewHorizons"
+  ]
+}
