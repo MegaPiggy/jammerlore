@@ -1,0 +1,59 @@
+{
+	"name" : "Subtise",
+	"starSystem" : "Jammer.jammerlore",
+	"Base" :
+	{
+		"surfaceGravity" : 20,
+		"surfaceSize" : 200,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3000,
+		"inclination" : 0,
+		"primaryBody" : "Stary",
+		"isMoon" : false,
+		"axialTilt": 48,
+		"siderealPeriod" : 11,
+		"showOrbitLine": true
+	},
+	"Lava": {
+		"size" : 26,
+	},
+	"Atmosphere" :
+	{
+		"size" : 200,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 220,
+	},
+	"Props" :
+	{
+		"Details":
+		[
+			{
+			"assetBundle":"planets/modwls/mourn",
+			"path":"Assets/dense.prefab",
+			"position":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+				"rotation":{
+				"x":0,
+				"y":0,
+				"z":0
+			},
+			"scale": 1
+			}
+		]
+	}
+
+}

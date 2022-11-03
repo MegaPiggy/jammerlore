@@ -1,9 +1,11 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
-  "version": "0.0.0",
-  "owmlVersion": "2.7.2",
-  "dependencies": [ "xen.NewHorizons" ]
+  "author": "Jammer",
+  "name": "Jammer Lore",
+  "uniqueName": "Jammer.jammerlore",
+  "version": "0.2.4",
+  "owmlVersion": "2.7.3",
+  "dependencies": [
+    "xen.NewHorizons"
+  ]
 }

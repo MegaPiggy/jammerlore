@@ -1,0 +1,67 @@
+{
+	"name" : "Chonk",
+	"starSystem" : "Jammer.jammerlore",
+	"Base" :
+	{
+		"surfaceGravity" : 22,
+		"surfaceSize" : 350,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 12000,
+		"inclination" : 0,
+		"primaryBody" : "Stary",
+		"isMoon" : false,
+		"isTidallyLocked" : true,
+		"showOrbitLine": true
+	},
+	"Lava": {
+		"size" : 135,
+	},
+	"Atmosphere" :
+	{
+		"hasAtmosphere" : true,
+		"size" : 400,
+		"cloudTint" : 
+		{
+			"r" : 255,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/clod.png",
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 0,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 370,
+	},
+	"Props" :
+	{
+		"Details":
+		[
+			{
+			"assetBundle":"planets/modwls/mourn",
+			"path":"Assets/chonk.prefab",
+			"position":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+				"rotation":{
+				"x":0,
+				"y":0,
+				"z":0
+			},
+			"scale": 0.8
+			}
+		]
+	}
+
+}

@@ -1,0 +1,43 @@
+{
+	"name" : "Hardest Ice Ever! [real]",
+	"starSystem" : "Jammer.jammerlore",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 250,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 20000,
+		"inclination" : 0,
+		"primaryBody" : "Stary",
+		"isMoon" : false,
+		"axialTilt": 56,
+		"siderealPeriod" : 11,
+		"showOrbitLine": true
+	},
+	"Props" :
+	{
+		"Details":
+		[
+			{
+			"assetBundle":"planets/modwls/mourn",
+			"path":"Assets/ice.prefab",
+			"position":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+				"rotation":{
+				"x":0,
+				"y":0,
+				"z":0
+			},
+			"scale": 1
+			}
+		]
+	}
+
+}

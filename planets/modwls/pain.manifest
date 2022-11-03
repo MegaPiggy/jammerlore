@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3360376349
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70f4d7d802082fa134c5e4aedf5a3839
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 531d5c83634e3d7474a87ede91f1d463
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+Assets:
+- Assets/plonet.prefab
+- Assets/plonet (1).prefab
+Dependencies: []
